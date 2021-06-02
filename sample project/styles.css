@@ -84,3 +84,11 @@ body {
     width: 71.87px;
     height: 12.56px;
 }
+
+.hello_area {
+    position: absolute;
+    width: 446px;
+    height: 450px;
+    left: 147px;
+    top: 134px;
+}

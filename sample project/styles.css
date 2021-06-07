@@ -1,5 +1,6 @@
 body {
     font-family: 'Jost', sans-serif;
+    background: #E5E5E5;
 }
 
 .logo {
@@ -85,7 +86,6 @@ body {
     height: 12.56px;
 }
 
-/* .container .greating {margin: 0 72px 0 142px;} */
 .container h1 {line-height: 58px; font-size: 44px; margin:0 0 2px 0;}
 .container p {color: #8C8C8C; line-height: 29px; font-size: 20px; margin:0 0 60px 0;}
 .container h3 {line-height: 29px; font-size: 20px; margin:0 0 20px 0;}
@@ -94,6 +94,7 @@ body {
     height: 198px;
     box-sizing: border-box;
     border-radius: 20px;
+    margin-bottom: 10px;
 }
 .votingpic {    
     background: #B4B7FF;
@@ -122,9 +123,26 @@ body {
     height: 190px;
     margin: 4px 13px 4px 13px;
 }
+.bigpicture {
+    width: 680px;
+    height: 840px;
+    background: #FBE0DC;
+    border-radius: 20px;
+    padding-right: 30px;
+    margin: 30px -60px 30px 0;
+}
+.bigimg {
+    width: 775px;
+    height: 1024px;
+    margin-top: -62px;
+}
+
 .btn-default {
     width: 138px;
     height: 36px;
     background: #FFFFFF;
     border-radius: 10px;
+    color: #FF868E;
 }
+.btn-default:hover {background: #FBE0DC; color: #FF868E;}
+.btn-default:active {background: #FF868E; color: #FFFFFF;}

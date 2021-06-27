@@ -3,6 +3,26 @@ body {
     background: #E5E5E5;
 }
 
+.btn-default {
+    background: #FFFFFF;
+    border-radius: 10px;
+    color: #FF868E;
+}
+.btn-default:hover {background: #FBE0DC; color: #FF868E;}
+.btn-default:active {background: #FF868E; color: #FFFFFF;}
+.buttonpicture {
+    width: 20px;
+    height: 20px;
+    margin-left: -3px;
+}
+.btnpicsearch {
+    width: 15px;
+    height: 15px;
+    margin-left: -5px;
+    margin-top: -8px;
+}
+
+.greating {margin-left: 140px; width: 450px;}
 .logo {
     position: relative;
     width: 106.16px;
@@ -141,26 +161,9 @@ body {
     width: 138px;
     height: 36px;
 }
-.btn-default {
-    background: #FFFFFF;
-    border-radius: 10px;
-    color: #FF868E;
-}
-.btn-default:hover {background: #FBE0DC; color: #FF868E;}
-.btn-default:active {background: #FF868E; color: #FFFFFF;}
-
-.search_pic {
-    position: relative;
-    width: 20px;
-    height: 20px;
-}
-.buttonpicture {
-    width: 20px;
-    height: 20px;
-}
 
 .search {padding: 30px 0 10px 0;}
-.search .col-1 {padding: 0;}
+.search .col-1 {padding-left: 0; padding-right: 10px;}
 .btn-like {
     border-radius: 15px;
     background: #FFFFFF;
@@ -176,45 +179,50 @@ body {
     height: 30px;
 }
 .search_area {
-    width: 400px;
+    width: 100%;
     background: #FFFFFF;
     border-radius: 15px;
 }
 .search_area .form-inline {padding-left: 15px;}
-.search_area .form-control {width: 320px; border: 0em;}
-.search_area .btn-search {margin-left: 30px;}
+.search_area .form-control {width: 80%; border: 0em;}
+.search_area .btn-search {margin-left: auto; margin-right: 8px;}
 
 .grid_breeds {
     background-color: #FFFFFF;
     border-radius: 20px;
-}  
+}
 .square_one {
     background-color: #C4C4C4;
-    width: 130px;
+    width: 200px;
     height: 300px;
     border-radius: 20px;
+    margin-bottom: 20px;
 }
 .square_two {
     background-color: #C4C4C4;
-    width: 130px;
-    height: 100px;
+    width: 200px;
+    height: 140px;
     border-radius: 20px;
 }
 .square_three {
     background-color: #C4C4C4;
-    width: 130px;
-    height: 100px;
+    width: 200px;
+    height: 140px;
     border-radius: 20px;
+    margin-bottom: 20px;
+    margin-right: 0%;
 }
 .square_four {
     background-color: #C4C4C4;
-    width: 130px;
-    height: 100px;
+    width: 200px;
+    height: 140px;
     border-radius: 20px;
+    margin-bottom: 20px;
+    margin-right: 0%;
 }
 .square_five {
     background-color: #C4C4C4;
-    width: 280px;
+    width: 420px;
     height: 300px;
     border-radius: 20px;
 }

@@ -164,7 +164,7 @@ body {
 .search {padding: 30px 0 10px 0;}
 .search .col-4 {padding-right: 0;}
 .btn-like {
-    border-radius: 15px;
+    border-radius: 20px;
     background: #FFFFFF;
     color: #FF868E;
     width: 60px;
@@ -234,3 +234,17 @@ body {
 
 .backpick {width: 20px; height: 20px; margin-left: -5px;}
 .menu {padding: 20px 20px 0 20px;}
+.breeds-brand {
+    width: 145px;
+    height: 40px;
+    background: #FF868E;
+    border-radius: 10px;
+    margin-left: 10px;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}

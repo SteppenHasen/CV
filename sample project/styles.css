@@ -191,38 +191,42 @@ body {
     background-color: #FFFFFF;
     border-radius: 20px;
 }
+.breed-set {padding: 10px 10px 0px 10px;}
+.d-flex {margin: 0 -15px 0 -15px;}
 .square_one {
     background-color: #C4C4C4;
     width: 200px;
     height: 300px;
     border-radius: 20px;
-    margin-bottom: 20px;
+    margin: 10px 10px 10px 10px;
 }
 .square_two {
     background-color: #C4C4C4;
     width: 200px;
     height: 140px;
     border-radius: 20px;
+    margin: 10px 10px 0px 10px;
 }
 .square_three {
     background-color: #C4C4C4;
     width: 200px;
     height: 140px;
     border-radius: 20px;
-    margin-bottom: 20px;
-    margin-right: 0%;
+    margin: 10px 10px 10px 10px;
+    max-width: 45%;
 }
 .square_four {
     background-color: #C4C4C4;
     width: 200px;
     height: 140px;
     border-radius: 20px;
-    margin-bottom: 20px;
-    margin-right: 0%;
+    margin: 10px 10px 10px 10px;
+    max-width: 45%;
 }
 .square_five {
     background-color: #C4C4C4;
-    width: 420px;
+    width: 400px;
     height: 300px;
     border-radius: 20px;
+    margin: 10px 10px 0px 10px;
 }

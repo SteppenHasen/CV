@@ -20,24 +20,11 @@
         <div class="row">
 
             <!-- Left Half -->
-            <div class="col-6">
+            <div class="col-xl-6 d-none d-xl-block">
 
                 <!-- Logo -->
                 <div class="row greating">
-                    <div class="col">
-                        <div class="logo">
-                            <div class="paw_logo">
-                                <div class="el1"></div>
-                                <div class="el2"></div>
-                                <div class="el3"></div>
-                                <div class="el4"></div>
-                                <div class="rect1"></div>
-                                <div class="rect2"></div>
-                            </div>
-                            <div class="logo_text">PetsPaw</div>
-                        </div>
-                        <div class="col-auto"></div>
-                    </div>
+                    <img src="./img/Logo.png" class="logo">
                 </div>
 
                 <!-- Hello Square -->
@@ -83,10 +70,10 @@
             </div>
 
             <!-- Right Half -->
-            <div class="col-6">
+            <div class="col-12 col-xl-6">
 
-                <div class="row search">
-                    <div class="col-8">
+                <div class="row search justify-content-center">
+                    <div class="col-md-8 col-sm-10">
                         <div class="search_area">
                             <form class="form-inline">
                                 <input class="form-control" type="search" placeholder="Search for breeds by name" aria-label="Search">
@@ -94,7 +81,7 @@
                             </form>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4 d-none d-sm-none d-md-block">
                         <button class="btn btn-like btn-default" type="button"><img src="./img/happiness.png" class="buttonpicture"></button>
                         <button class="btn btn-like btn-default" type="button"><img src="./img/like.png" class="buttonpicture"></button>
                         <button class="btn btn-like btn-default" type="button"><img src="./img/sadness.png" class="buttonpicture"></button>
@@ -106,7 +93,7 @@
                         <div class="btn btn-small" type="button">
                             <img class="backpick" src="./img/back.png">
                         </div>
-                        <div class="btn breeds-brand">BREEDS</div>
+                        <div class="btn breeds-brand d-none d-md-block">BREEDS</div>
 
                         <div class="dropdown">
                             <button class="btn dropdown-toggle drop-breads" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -124,11 +111,11 @@
                             </button>
                             <div class="dropdown-menu">
                             <a class="dropdown-item" href="#">5</a>
+                            <a class="dropdown-item" href="#">10</a>
                             <a class="dropdown-item" href="#">15</a>
                             <a class="dropdown-item" href="#">20</a>
                             </div>
                         </div>
-
                         <div class="btn btn-sort" type="button">
                             <img src="./img/sort-up.png">
                         </div>
@@ -138,61 +125,41 @@
                     </div>
 
                     <div class="row breed-set">
-                        <div class="col-4">
+                        <div class="col-md-4 col-sm-4">
                             <div class="row">
-                                <div class="col-sm square_one"></div>
+                                <div class="col-md d-none d-sm-block square_one square"></div>
                             </div>
                             <div class="row">
-                                <div class="col-sm square_two"></div>
-                            </div>
-                        </div>
-                        <div class="col-8">
-                            <div class="row">
-                                <div class="col-sm-6 square_three"></div>
-                                <div class="col-sm-6 square_four"></div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm square_five"></div>
+                                <div class="col-m d-none d-sm-none d-md-block square_two square"></div>
                             </div>
                         </div>
-                    </div>
-                    <div class="d-flex flex-row-reverse breed-set">
-                        <div class="col-4">
+                        <div class="col-md-8 col-sm-8">
                             <div class="row">
-                                <div class="col-sm square_one"></div>
+                                <div class="col col-md-6 d-sm-none d-md-block square_three square"></div>
+                                <div class="col col-md-6 d-sm-none d-md-block square_four square"></div>
                             </div>
                             <div class="row">
-                                <div class="col-sm square_two"></div>
-                            </div>
-                        </div>
-                        <div class="col-8">
-                            <div class="row">
-                                <div class="col-sm-6 square_three"></div>
-                                <div class="col-sm-6 square_four"></div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm square_five"></div>
+                                <div class="col-md square_five square"></div>
                             </div>
                         </div>
                     </div>
-                    <div class="row breed-set">
-                        <div class="col-4">
+                    <div class="d-flex flex-row-reverse breed-set justify-content-center">
+                        <div class="col-md-4 col-sm-4">
                             <div class="row">
-                                <div class="col-sm square_one"></div>
+                                <div class="col-md d-none d-sm-block square_one square"></div>
                             </div>
                             <div class="row">
-                                <div class="col-sm square_two"></div>
-                            </div>
-                        </div>
-                        <div class="col-8">
-                            <div class="row">
-                                <div class="col-sm-6 square_three"></div>
-                                <div class="col-sm-6 square_four"></div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm square_five"></div>
+                                <div class="col-m d-none d-sm-none d-md-block square_two square"></div>
                             </div>
                         </div>
+                        <div class="col-md-8 col-sm-8">
+                            <div class="row">
+                                <div class="col col-md-6 d-sm-none d-md-block square_three square"></div>
+                                <div class="col col-md-6 d-sm-none d-md-block square_four square"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md square_five square"></div>
+                            </div>
                     </div>
                 </div>
             </div>

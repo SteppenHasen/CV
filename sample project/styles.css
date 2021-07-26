@@ -10,6 +10,32 @@ body {
 }
 .btn-default:hover {background: #FBE0DC; color: #FF868E;}
 .btn-default:active {background: #FF868E; color: #FFFFFF;}
+.btn-like img {width: 30px; height: 30px;}
+.btn-like {
+    border-radius: 20px;
+    background: #FFFFFF;
+    color: #FF868E;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+.btn-small {
+    background-color: #FBE0DC; 
+    color: #FF868E; 
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+}
+.btnpicsearch {
+    width: 20px;
+    height: 20px;
+    margin-left: -3px;
+    margin-top: -3px;
+}
+.left-side-button {
+    width: 138px;
+    height: 36px;
+}
 
 .greating {margin-left: 140px; width: 450px;}
 .logo {
@@ -18,81 +44,6 @@ body {
     height: 24px;
     top: 30px;
     margin-bottom: 80px;
-}
-.paw {
-    width: 24px;
-    height: 24px;
-    position: absolute;
-    left: 0%;
-    right: 77.39%;
-    top: 0%;
-    bottom: 0%;
-}
-.el1, .el2, .el3, .el4 {
-    background: #FF868E;
-    position: absolute;
-    border-radius: 50%;
-    width: 5.77px;
-    height: 5.77px;
-}
-.el1 {
-    left: 0%;
-    right: 94.56%;
-    top: 57.71%;
-    bottom: 18.24%;
-}
-.el2 {
-    left: 0%;
-    right: 94.56%;
-    top: 24.05%;
-    bottom: 51.91%;
-}
-.el3 {
-    left: 5.44%;
-    right: 89.13%;
-    top: 0%;
-    bottom: 75.95%;
-}
-.el4 {
-    left: 13.05%;
-    right: 81.52%;
-    top: 0%;
-    bottom: 75.95%;
-}
-.rect1 {
-    background: #FF868E;
-    width: 16.16px;
-    height: 9.23px;
-    border-radius: 10px;
-    position: absolute;
-    left: 4.7%;
-    right: 77.39%;
-    top: 48%;
-    bottom: -38.47%;
-    transform: rotate(-90deg);
-}
-.rect2 {
-    background: #FF868E;
-    width: 16.16px;
-    height: 9.23px;
-    border-radius: 10px;
-    position: absolute;
-    left: 7.39%;
-    right: 77.39%;
-    top: 33.2%;
-    bottom: 28.86%;
-}
-.logo_text {
-    position: absolute;
-    left: 30.04%;
-    right: 2.26%;
-    top: 26.81%;
-    bottom: 20.87%;
-    color: black;
-    font-weight: 700;
-    font-style: bold;
-    width: 71.87px;
-    height: 12.56px;
 }
 
 .container h1 {line-height: 58px; font-size: 44px; margin:0 0 2px 0;}
@@ -146,35 +97,8 @@ body {
     margin-top: -62px;
 }
 
-.left-side-button {
-    width: 138px;
-    height: 36px;
-}
-
 .search {padding: 30px 0 10px 0;}
-.search .col-4 {padding-right: 0;}
-.btn-like {
-    border-radius: 20px;
-    background: #FFFFFF;
-    color: #FF868E;
-    width: 60px;
-    height: 60px;
-    margin-right: 10px;
-}
-.btn-like img {width: 30px; height: 30px;}
-.btn-small {
-    background-color: #FBE0DC; 
-    color: #FF868E; 
-    border-radius: 10px;
-    width: 40px;
-    height: 40px;
-}
-.btnpicsearch {
-    width: 20px;
-    height: 20px;
-    margin-left: -3px;
-    margin-top: -3px;
-}
+.search .col-md-4 {padding-right: 0;}
 .search_area {
     width: 100%;
     height: 60px;
@@ -191,42 +115,32 @@ body {
 }
 .breed-set {padding: 10px 10px 0px 10px;}
 .d-flex {margin: 0 -15px 0 -15px;}
-.square_one {
+.square {
     background-color: #C4C4C4;
+    border-radius: 20px;
+    margin: 10px 10px 10px 10px;
+}
+.square_one {
     width: 200px;
     height: 300px;
-    border-radius: 20px;
-    margin: 10px 10px 10px 10px;
 }
 .square_two {
-    background-color: #C4C4C4;
     width: 200px;
     height: 140px;
-    border-radius: 20px;
-    margin: 10px 10px 0px 10px;
 }
 .square_three {
-    background-color: #C4C4C4;
     width: 200px;
     height: 140px;
-    border-radius: 20px;
-    margin: 10px 10px 10px 10px;
     max-width: 45%;
 }
 .square_four {
-    background-color: #C4C4C4;
     width: 200px;
     height: 140px;
-    border-radius: 20px;
-    margin: 10px 10px 10px 10px;
     max-width: 45%;
 }
 .square_five {
-    background-color: #C4C4C4;
     width: 400px;
     height: 300px;
-    border-radius: 20px;
-    margin: 10px 10px 0px 10px;
 }
 
 .backpick {width: 20px; height: 20px; margin-left: -5px;}

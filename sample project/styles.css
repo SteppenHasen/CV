@@ -2,7 +2,8 @@ body {
     font-family: 'Jost', sans-serif;
     background: #E5E5E5;
 }
-
+.col-xl-6 {max-width: 49%;}
+.right_half {margin-right: 20px;}
 .btn-default {
     background: #FFFFFF;
     border-radius: 10px;
@@ -36,6 +37,14 @@ body {
     width: 138px;
     height: 36px;
 }
+.btn-sort {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    background: #F8F8F7;
+    border-radius: 10px;
+}
+.btn-sort img {width: 20px; height: 20px; margin-left: -3px;}
 
 .greating {margin-left: 140px; width: 450px;}
 .logo {
@@ -151,7 +160,8 @@ body {
     background: #FF868E;
     border-radius: 10px;
     margin-left: 10px;
-
+}
+.breeds-brand span {
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
@@ -188,11 +198,71 @@ body {
 }
 .drop-limit .dropdown-menu {width: 300px; height: 165px;}
 .drop-breads .dropdown-menu {width: 300px; height: 300px;}
-.btn-sort {
-    width: 40px;
-    height: 40px;
-    margin-left: 10px;
-    background: #F8F8F7;
-    border-radius: 10px;
+
+.breed_carousel {
+    width: 680px;
+    height: 360px;
+    background: url(./img/_DSC0381.jpg);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 0;
 }
-.btn-sort img {width: 20px; height: 20px; margin-left: -3px;}
+.breed_id {
+    width: 90px;
+    height: 40px;
+    background: #FF868E;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.breed_id span {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+.breed_details {
+    width: 680px;
+    height: 204px;
+    margin: 20px;
+    padding: 0;
+    border: 2px solid #FBE0DC;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.breed_name {
+    width: 193px;
+    height: 62px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-top: -25px;
+    margin-left: 35%;
+    margin-right: auto;
+}
+.breed_name span {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 52px;
+    color: #1D1D1D;
+    margin: 10px 40px 10px 40px;
+}
+.carousel-indicators {
+    width: 90px;
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-bottom: -25px;
+    margin-left: 42%;
+    margin-right: auto;
+}
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+    float: left;
+    width: 10px;
+    height: 10px;
+    background: #FBE0DC;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+ol.carousel-indicators li.active { background: #FF868E;}

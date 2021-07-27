@@ -2,7 +2,7 @@ body {
     font-family: 'Jost', sans-serif;
     background: #E5E5E5;
 }
-.col-xl-6 {max-width: 49%;}
+/* .col-xl-6 {max-width: 49%;} */
 .right_half {margin-right: 20px;}
 .btn-default {
     background: #FFFFFF;
@@ -45,6 +45,28 @@ body {
     border-radius: 10px;
 }
 .btn-sort img {width: 20px; height: 20px; margin-left: -3px;}
+.btn-upload {
+    width: 143px;
+    height: 40px;
+    background: #FBE0DC;
+    border-radius: 10px;
+    margin-left: 48%;
+}
+.btn-upload span {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FF868E;
+}
+.refresh_btn {
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 5px;
+}
 
 .greating {margin-left: 140px; width: 450px;}
 .logo {
@@ -192,6 +214,7 @@ body {
     text-align: left;
 }
 .dropdown-menu { 
+    width: 300px;
     background: #FFFFFF;
     border-radius: 30px;
     color: #8C8C8C;
@@ -341,3 +364,38 @@ ol.carousel-indicators li.active { background: #FF868E;}
     color: #8C8C8C;
 }
 .log_message span {color: #1D1D1D;}
+
+.filter_settings {
+    width: 680px;
+    height: 156px;
+    margin-top: 20px;
+    background: #F8F8F7;
+    border-radius: 20px;
+}
+.filter_option {
+    width: 300px;
+    height: 58px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left: 10px;
+} 
+.filter_option p {
+    font-size: 10px;
+    line-height: 18px;
+    color: #8C8C8C;
+    margin-bottom: 0;
+}
+.drop-filter {
+    width: 290px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    text-align: left;
+}
+.drop-filter_limit {
+    width: 240px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    text-align: left;
+}

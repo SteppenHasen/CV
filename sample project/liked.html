@@ -77,7 +77,7 @@
                         <div class="search_area">
                             <form class="form-inline">
                                 <input class="form-control" type="search" placeholder="Search for breeds by name" aria-label="Search">
-                                <button class="btn btn-small btn-default" type="submit">
+                                <button class="btn btn-small btn-default" role="button" href='./search.html'>
                                     <img src="./img/Search.png" class="btnpicsearch buttonpicture">
                                     <img src="./img/search-white-20.png" class="btnpicsearch on_action_button_picture">
                                 </button>
@@ -85,7 +85,7 @@
                         </div>
                     </div>
                     <div class="col-md-4 d-none d-sm-none d-md-block">
-                        <button class="btn btn-like btn-default" role="button" href='./liked.html'>
+                        <button class="btn btn-like btn-default active" role="button" href='./liked.html' aria-pressed="true">
                             <img src="./img/happiness.png" class="buttonpicture">
                             <img src="./img/like-white-30.png" class="on_action_button_picture">
                         </button>
@@ -106,68 +106,7 @@
                             <img src="./img/back.png" class="buttonpicture">
                             <img src="./img/back-white-20.png" class="on_action_button_picture">
                         </div>
-                        <div class="btn breeds-brand d-none d-md-block"><span>BREEDS</span></div>
-                        <div class="btn btn-upload d-none d-md-block"><img src="./img/upload-16.png"><span>UPLOAD</span></div>
-                    </div>
-                    <div class="filter_settings">
-                        <div class="row">
-                            <div class="col filter_option">
-                                <p>ORDER</p>
-                                <div class="dropdown">
-                                    <button class="btn dropdown-toggle drop-filter" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Random<span></span>
-                                    </button>
-                                    <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Random</a>
-                                    <a class="dropdown-item" href="#">Desc</a>
-                                    <a class="dropdown-item" href="#">Asc</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col filter_option">
-                                <p>TYPE</p>
-                                <div class="dropdown">
-                                    <button class="btn dropdown-toggle drop-filter" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Static<span></span>
-                                    </button>
-                                    <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">All</a>
-                                    <a class="dropdown-item" href="#">Static</a>
-                                    <a class="dropdown-item" href="#">Animated</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col filter_option">
-                                <p>BREED</p>
-                                <div class="dropdown">
-                                    <button class="btn dropdown-toggle drop-filter" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Random<span></span>
-                                    </button>
-                                    <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Random</a>
-                                    <a class="dropdown-item" href="#">Desc</a>
-                                    <a class="dropdown-item" href="#">Asc</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col filter_option">
-                                <p>ORDER</p>
-                                <div class="dropdown">
-                                    <button class="btn dropdown-toggle drop-filter_limit" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    LIMIT<span></span>
-                                    </button>
-                                    <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">5 items per page</a>
-                                    <a class="dropdown-item" href="#">10 items per page</a>
-                                    <a class="dropdown-item" href="#">15 items per page</a>
-                                    <a class="dropdown-item" href="#">20 items per page</a>
-                                    </div>
-                                    <div class="btn refresh_btn"><img src="./img/update-20.png"></div>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="btn breeds-brand d-none d-md-block"><span>LIKED</span></div>
                     </div>
 
                     <div class="row breed-set">

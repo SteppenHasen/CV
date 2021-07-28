@@ -56,13 +56,13 @@
                         </div>
                         <div class="w-100"></div>
                         <div class="col-4">
-                            <a class="btn btn-default left-side-button" href="#" role="button">VOTING</a> 
+                            <a class="btn btn-default left-side-button" href="./voting.html" role="button">VOTING</a> 
                         </div>
                         <div class="col-4">
-                            <a class="btn btn-default left-side-button" href="#" role="button">BREEDS</a>
+                            <a class="btn btn-default left-side-button" href="./breeds.html" role="button">BREEDS</a>
                         </div>
                         <div class="col-4">
-                            <a class="btn btn-default left-side-button" href="#" role="button">GALLERY</a>
+                            <a class="btn btn-default left-side-button" href="./gallery.html" role="button">GALLERY</a>
                         </div>
                     </div>
                 </div>
@@ -77,21 +77,34 @@
                         <div class="search_area">
                             <form class="form-inline">
                                 <input class="form-control" type="search" placeholder="Search for breeds by name" aria-label="Search">
-                                <button class="btn btn-small btn-default" type="submit"><img src="./img/Search.png" class="btnpicsearch"></button>
+                                <button class="btn btn-small btn-default" type="submit">
+                                    <img src="./img/Search.png" class="btnpicsearch buttonpicture">
+                                    <img src="./img/search-white-20.png" class="btnpicsearch on_action_button_picture">
+                                </button>
                             </form>
                         </div>
                     </div>
                     <div class="col-md-4 d-none d-sm-none d-md-block">
-                        <button class="btn btn-like btn-default" type="button"><img src="./img/happiness.png" class="buttonpicture"></button>
-                        <button class="btn btn-like btn-default" type="button"><img src="./img/like.png" class="buttonpicture"></button>
-                        <button class="btn btn-like btn-default" type="button"><img src="./img/sadness.png" class="buttonpicture"></button>
+                        <button class="btn btn-like btn-default" role="button" href='./liked.html'>
+                            <img src="./img/happiness.png" class="buttonpicture">
+                            <img src="./img/like-white-30.png" class="on_action_button_picture">
+                        </button>
+                        <button class="btn btn-like btn-default" role="button" href='./faworite.html'>
+                            <img src="./img/like.png" class="buttonpicture">
+                            <img src="./img/fav-white-30.png" class="on_action_button_picture">
+                        </button>
+                        <button class="btn btn-like btn-default" role="button" href='./disliked.html'>
+                            <img src="./img/sadness.png" class="buttonpicture">
+                            <img src="./img/dislike-white-30.png" class="on_action_button_picture">
+                        </button>
                     </div> 
                 </div>
 
                 <div class="container grid_breeds">
                     <div class="row menu">
                         <div class="btn btn-small" type="button">
-                            <img class="backpick" src="./img/back.png">
+                            <img src="./img/back.png" class="buttonpicture">
+                            <img src="./img/back-white-20.png" class="on_action_button_picture">
                         </div>
                         <div class="btn breeds-brand d-none d-md-block"><span>BREEDS</span></div>
                         <div class="btn breed_id"><span>28</span></div>

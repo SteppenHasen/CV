@@ -1,0 +1,112 @@
+                    /* main style */
+body {
+    width: 1200px;
+    font-family: 'Montserrat', sans-serif;
+    background: #f5f7fa;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    
+}
+.main_container {
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    top: 50%;
+    left: 50%;
+}
+
+                    /* sidebar section */
+
+.sidebar_text {margin-top: 40px; margin-left: 40px;}
+.contact_section {
+    padding: 40px 0 40px 0;
+    background: #1e1e39;
+    color: #fff;
+    width: 370px;
+}
+.contact_title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+}
+.contact-type {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+.contact_link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #565e6a;
+    padding: 0 0 0 10px;
+}
+.sidebar_list {padding: 0 0 0 15px;}
+.sidebar_ls {
+    color: rgb(255, 123, 0);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+.sidebar_ls span {color: #fff;}
+img {width: 370px;}
+
+                    /* main information */
+
+h1 {
+    font-size: 45px;
+    line-height: 55px;
+}
+h2, h5 {
+    font-size: 14px;
+    line-height: 17px;
+    margin: 12px 0 0 0;
+}
+h3 {
+    font-size: 22px;
+    line-height: 27px;
+}
+h4 {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 15px 0 0 0;
+}
+.about_me {padding: 100px 90px;}
+.main_text, .education {width: 400px; margin-top: 45px 0 0 0;}
+.projects {width: 485px; margin-top: 45px 0 0 0;}
+.experience {width: 525px; margin-top: 50px 0 0 0;}
+.inner_text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    
+}
+.small_text {
+    margin: 10px 0 0 0;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+.inner_text_list {
+    color: #000000;
+    font-weight: bold;
+    padding: 0 0 0 15px;
+    margin: 8px 0 0 0;
+}
+.orange_text {color: rgb(255, 123, 0);}
+.black {
+    color: #000000; 
+    padding: 0 8px 0 8px;
+    font-weight: bold;
+}

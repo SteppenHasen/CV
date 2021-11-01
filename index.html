@@ -14,7 +14,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;800&display=swap" rel="stylesheet">
 
     <title>CV ZaytsevaN</title>
 </head>
@@ -22,7 +25,7 @@
     <div class="container">
         <div class="aside">
             <div class="person">
-                <img src="./CV/images/Portrait.jpg" alt="self">
+                <img class="portrait" src="./images/Portrait.jpg" alt="self">
                 <h1><span>Natalia</span> Zaytseva</h1>
                 <h4>Frontend Developer</h4>
                 <h2>Profile</h2>
@@ -30,15 +33,12 @@
                     sed do eiusmod tempor incididunt ut labore et dolore 
                     magna aliqua. Ut enim ad minim veniam, quis nostrud 
                     exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate 
-                    velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                    consequat. </p>
             </div>
             <div class="contacts">
                 <h2>contact me</h2>
                 <h3>phone number</h3>
-                <p class="contact"></p>
-                <h3>Telegram</h3>
-                <p class="contact"></p>
+                <p class="contact">12457</p>
                 <h3>Email</h3>
                 <p class="contact"></p>
                 <h3>Address</h3>
@@ -46,48 +46,66 @@
             </div>
             <div class="soft_skills">
                 <h2>Soft skills</h2>
-                <ul class="skill">Team work
-                    <li>&#9658;</li>
-                    <li>&#9658;</li>
-                    <li>&#9658;</li>
-                    <li>&#9658;</li>
-                    <li>&#9658;</li>
-                </ul>
-                <ul class="skill">Communication
-                    <li>&#9658;</li>
-                    <li>&#9658;</li>
-                    <li>&#9658;</li>
-                    <li>&#9658;</li>
-                    <li>&#9658;</li>
-                </ul>
-                <ul class="skill">Conflict Resolution
-                    <li>&#9658;</li>
-                    <li>&#9658;</li>
-                    <li>&#9658;</li>
-                    <li>&#9658;</li>
-                    <li>&#9658;</li>
-                </ul>
-                <ul class="skill">Adaptability
-                    <li>&#9658;</li>
-                    <li>&#9658;</li>
-                    <li>&#9658;</li>
-                    <li>&#9658;</li>
-                    <li>&#9658;</li>
-                </ul>
-                <ul class="skill">Problem Solving
-                    <li>&#9658;</li>
-                    <li>&#9658;</li>
-                    <li>&#9658;</li>
-                    <li>&#9658;</li>
-                    <li>&#9658;</li>
-                </ul>
-                <ul class="skill">Creative
-                    <li>&#9658;</li>
-                    <li>&#9658;</li>
-                    <li>&#9658;</li>
-                    <li>&#9658;</li>
-                    <li>&#9658;</li>
-                </ul>
+                <div class="skill_block">
+                    <p>Team work</p>
+                    <ul class="skill">
+                        <li>&#9658;</li>
+                        <li>&#9658;</li>
+                        <li>&#9658;</li>
+                        <li>&#9658;</li>
+                        <li class="havnt_skill">&#9658;</li>
+                    </ul>
+                </div>
+                <div class="skill_block">
+                    <p>Communication</p>
+                    <ul class="skill">
+                        <li>&#9658;</li>
+                        <li>&#9658;</li>
+                        <li>&#9658;</li>
+                        <li class="havnt_skill">&#9658;</li>
+                        <li class="havnt_skill">&#9658;</li>
+                    </ul>
+                </div>
+                <div class="skill_block">
+                    <p>Conflict Resolution</p>
+                    <ul class="skill">
+                        <li>&#9658;</li>
+                        <li>&#9658;</li>
+                        <li>&#9658;</li>
+                        <li>&#9658;</li>
+                        <li>&#9658;</li>
+                    </ul>
+                </div>
+                <div class="skill_block">
+                    <p>Adaptability</p>
+                    <ul class="skill">
+                        <li>&#9658;</li>
+                        <li>&#9658;</li>
+                        <li>&#9658;</li>
+                        <li>&#9658;</li>
+                        <li class="havnt_skill">&#9658;</li>
+                    </ul>
+                </div>
+                <div class="skill_block">
+                    <p>Problem Solving</p>
+                    <ul class="skill">
+                        <li>&#9658;</li>
+                        <li>&#9658;</li>
+                        <li>&#9658;</li>
+                        <li>&#9658;</li>
+                        <li class="havnt_skill">&#9658;</li>
+                    </ul>
+                </div>
+                <div class="skill_block">
+                    <p>Creative</p>
+                    <ul class="skill">
+                        <li>&#9658;</li>
+                        <li>&#9658;</li>
+                        <li>&#9658;</li>
+                        <li class="havnt_skill">&#9658;</li>
+                        <li class="havnt_skill">&#9658;</li>
+                    </ul>
+                </div>
             </div>
         </div>
 
@@ -95,7 +113,7 @@
             <div class="settings">
 
             </div>
-            
+
             <div class="education">
                 <h2>Education</h2>
                 <div class="details">
@@ -171,28 +189,28 @@
 
             <div class="projects">
                 <div class="project">
-                    <img src="./images/projects_view/screen.png" alt="project">
+                    <img src="./images/projects_view/screen.png" alt="project" width="200px">
                     <h2>Lorem ipsum dolor sit amet</h2>
                     <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco 
                         laboris nisi ut aliquip ex ea commodo consequat.</p>
                     <a>Excepteur sint occaecat.</a>
                 </div>
                 <div class="project">
-                    <img src="./images/projects_view/screen.png" alt="project">
+                    <img src="./images/projects_view/screen.png" alt="project" width="200px">
                     <h2>Lorem ipsum dolor sit amet</h2>
                     <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco 
                         laboris nisi ut aliquip ex ea commodo consequat.</p>
                     <a>Excepteur sint occaecat.</a>
                 </div>
                 <div class="project">
-                    <img src="./images/projects_view/screen.png" alt="project">
+                    <img src="./images/projects_view/screen.png" alt="project" width="200px">
                     <h2>Lorem ipsum dolor sit amet</h2>
                     <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco 
                         laboris nisi ut aliquip ex ea commodo consequat.</p>
                     <a>Excepteur sint occaecat.</a>
                 </div>
                 <div class="project">
-                    <img src="./images/projects_view/screen.png" alt="project">
+                    <img src="./images/projects_view/screen.png" alt="project" width="200px">
                     <h2>Lorem ipsum dolor sit amet</h2>
                     <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco 
                         laboris nisi ut aliquip ex ea commodo consequat.</p>

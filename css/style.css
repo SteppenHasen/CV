@@ -1,0 +1,109 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+h1, h2, h3, h4 {
+    text-transform: capitalize;
+    margin: 0;
+    color: #1b1210;
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+h1 span {font-weight: 800;}
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+h4 {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+p {
+    width: 70%;
+    font-size: 1rem;
+}
+.portrait {
+    width: 250px;
+    border-radius: 50%;
+}
+
+/* Flexbox && positioning */
+.container {
+    display: flex;
+}
+.aside {
+    width: 25vw;
+}
+.main_info {
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.settings {
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 10vh;
+}
+
+.person, .contacts, .soft_skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portrait {
+    margin-top: 10vh;
+    margin-bottom: 4vh;
+}
+.person h4 {margin-bottom: 4vh;}
+.person h2 {padding-bottom: 2vh;}
+.contacts, .soft_skills, .person {padding: 3vh 0;}
+.contacts {margin: 0 80px;}
+.skill_block{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.skill {
+    padding: 0;
+    justify-self: flex-end;
+}
+.skill li {display: inline;}
+
+/* Sections styles */
+.aside {
+    background-color: #a79086;
+}
+.contacts {
+    border-top: #1b1210 2px solid;
+    border-bottom: #1b1210 2px solid;
+}
+.contact, .date {
+    color: #d2d2c9;
+    margin: 5px 0 15px 0;
+    text-align: center;
+}
+.skill {
+    list-style-type: none;
+}
+.skill li {font-size: 0.9rem;}
+.havnt_skill {color: #673e37;}
+
+.main_info {
+    background-color: #d2d2c9;
+}
+.settings {
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 140px solid #a79086;
+}

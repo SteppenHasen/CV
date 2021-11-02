@@ -34,43 +34,15 @@ h4 {
     width: 250px;
     border-radius: 50%;
 }
-
-/* Flexbox && positioning */
 .container {
     display: flex;
 }
+
+/* Aside section */
 .aside {
     width: 25vw;
+    background-color: #a79086;
 }
-.main_info {
-    width: 75vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.education, .work_skills, .expirience, .projects {margin: 0 4vw 6vh 4vw;}
-.settings {
-    width: 50%;
-    display: flex;
-    flex-flow: row wrap;
-    margin-bottom: 6vh;
-    align-self: center;
-}
-.skills_container {
-    margin-top: 2vh;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-}
-.work_skill {
-    margin-right: 20px;
-    display: flex;
-    width: 40%;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .person, .contacts, .soft_skills {
     display: flex;
     flex-direction: column;
@@ -83,7 +55,6 @@ h4 {
 .person h4 {margin-bottom: 4vh;}
 .person h2 {padding-bottom: 2vh;}
 .contacts, .soft_skills, .person {padding: 3vh 0;}
-.contacts {margin: 0 80px;}
 .skill_block{
     display: flex;
     justify-content: space-between;
@@ -92,35 +63,42 @@ h4 {
 .skill {
     padding: 0;
     justify-self: flex-end;
+    list-style-type: none;
 }
-.skill li {display: inline;}
-
-/* Sections styles */
-.aside {
-    background-color: #a79086;
+.skill li {
+    display: inline;
+    font-size: 0.9rem;
 }
+.havnt_skill {color: #673e37;}
 .contacts {
     border-top: #1b1210 2px solid;
     border-bottom: #1b1210 2px solid;
+    margin: 0 80px;
 }
 .contact {
     color: #d2d2c9;
     margin: 5px 0 15px 0;
     text-align: center;
 }
-.skill {
-    list-style-type: none;
+.links {
+    border-top: #1b1210 2px solid;
+    margin: 0 80px;
+    padding: 3vh 0;
+    text-align: center;   
 }
-.skill li {font-size: 0.9rem;}
-.havnt_skill {color: #673e37;}
+.icon {
+    width: 25px;
+    margin-right: 20px;
+}
+
+/* Main section */
 
 .main_info {
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #d2d2c9;
-}
-.settings {
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-top: 140px solid #a79086;
 }
 .heading {
     background-color: #a79086;
@@ -143,11 +121,83 @@ progress {
 ::-webkit-progress-bar {
     background-color: #a79086;
 }
-
+.education, .work_skills, .expirience, .projects {margin: 0 4vw 6vh 4vw;}
+.settings {
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 25vh;
+    align-self: center;
+    position:relative;
+}
+.settings::after {
+    content:'';
+    position:absolute;
+    width:80%;
+    height:0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 120px solid #a79086;
+}
+.page_nav {
+    z-index: 1;
+    padding-top: 3vh;
+}
+.nav {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: whitesmoke;
+    font-weight: 600;
+    margin: 0 10px;
+}
 .details {
     text-align: center;
     margin-top: 6vh;
 }
-.date {color: #6d031c;}
+.date {
+    color: #6d031c;
+    font-size: 00.9rem;
+}
 .details h4 {font-weight: 600;}
-
+.skills_container {
+    margin-top: 2vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.work_skill {
+    margin-right: 20px;
+    display: flex;
+    width: 40%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 45%;
+}
+.card_content {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    padding: 1rem;
+}
+.card_image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    filter: contrast(70%);
+    overflow: hidden;
+    position: relative;
+    transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);
+}

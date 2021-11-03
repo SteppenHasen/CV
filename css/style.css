@@ -32,7 +32,7 @@ h4 {
     font-size: 1rem;
 }
 .portrait {
-    width: 250px;
+    width: 80%;
     border-radius: 50%;
 }
 .container {
@@ -74,7 +74,7 @@ h4 {
 .contacts {
     border-top: #1b1210 2px solid;
     border-bottom: #1b1210 2px solid;
-    margin: 0 80px;
+    margin: 0 3vw;
 }
 .contact {
     color: #d2d2c9;
@@ -84,7 +84,7 @@ h4 {
 }
 .links {
     border-top: #1b1210 2px solid;
-    margin: 0 80px;
+    margin: 0 2vw;
     padding: 3vh 0;
     text-align: center;   
 }
@@ -247,4 +247,39 @@ progress {
 .card_image:hover {
     filter: none;
     transition: filter 2s;
+}
+
+
+/* mobile */
+@media screen and (max-width:968px) {
+    .settings {
+        width: 70%;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h4 {
+        font-size: 1rem;
+    }
+    .aside h2 {
+        font-size: 1.2rem;
+    }
+    .skill_block {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .skill_block p {
+        margin-bottom: 0%;
+    }
+    .skill {
+        margin-top: 2px;
+        margin-bottom: 0;
+    }
+    .skills_container {
+        flex-flow: column;
+    }
+    .skills_container:nth-child(2n) {
+        align-self: flex-end;
+    }
 }

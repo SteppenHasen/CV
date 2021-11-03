@@ -79,6 +79,7 @@ h4 {
     color: #d2d2c9;
     margin: 5px 0 15px 0;
     text-align: center;
+    font-weight: 800;
 }
 .links {
     border-top: #1b1210 2px solid;
@@ -174,30 +175,62 @@ progress {
     align-items: center;
     justify-content: space-between;
 }
-.projects {
+.projects_cards {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 3.5vh;
+    justify-content: center;
 }
 .card {
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    width: 45%;
+    width: 40%;
+    margin: 2.5vw;
 }
 .card_content {
     display: flex;
     flex: 1 1 auto;
     flex-direction: column;
-    padding: 1rem;
+    padding-top: 1rem;
 }
 .card_image {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
-    filter: contrast(70%);
+    border-radius: 0.25rem;
     overflow: hidden;
     position: relative;
-    transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);
+    width: 100%;
+    height: calc(75vw*0.35);
+}
+.card_title {
+    font-weight: 800;
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+}
+.card_text {margin: 0.5rem;}
+.card_link {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 800;
+    margin-left: 0.5rem;
+}
+.card_tracker {
+    background-image: url(../images/projects_view/time-track.png);
+}
+.card_calc {
+    background-image: url(../images/projects_view/calc.png);
+}
+.card_sunny {
+    background-image: url(../images/projects_view/sunnyside.png);
+}
+.card_blogr {
+    background-image: url(../images/projects_view/blogr.png);
+}
+.card_games {
+    background-image: url(../images/projects_view/games.png);
+}
+.card_blackwhite {
+    background-image: url(../images/projects_view/blacknwhite.png);
 }

@@ -5,9 +5,10 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 h1, h2, h3, h4 {
-    text-transform: capitalize;
+    text-transform: uppercase;
     margin: 0;
     color: #1b1210;
+    text-align: center;
 }
 h1 {
     font-size: 2.5rem;
@@ -62,7 +63,7 @@ h4 {
 }
 .skill {
     padding: 0;
-    justify-self: flex-end;
+    display: flex;
     list-style-type: none;
 }
 .skill li {
@@ -203,6 +204,7 @@ progress {
     position: relative;
     width: 100%;
     height: calc(75vw*0.35);
+    filter: sepia(100%);
 }
 .card_title {
     font-weight: 800;
@@ -233,4 +235,16 @@ progress {
 }
 .card_blackwhite {
     background-image: url(../images/projects_view/blacknwhite.png);
+}
+
+/* Efects */
+.nav:hover {
+    font-size: 1rem;
+    color: #1b1210;
+    transition: color 1s;
+    transition: font-size 1s;
+}
+.card_image:hover {
+    filter: none;
+    transition: filter 2s;
 }

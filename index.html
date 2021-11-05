@@ -19,30 +19,52 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;800&display=swap" rel="stylesheet">
 
+    <script src="./script.js"></script>
+
     <title>CV ZaytsevaN</title>
 </head>
 <body>
     <div class="container">
+        <div class="mobile_menu">
+            <a class="menu_button" href="javascript:void(0);" onclick="showHideMenu()">
+                <img class="icon" src="./images/icons/ellipsis-h-solid.svg" alt="menu">
+            </a>    
+        </div>
+        <div class="navlinks" id="navlinks">
+            <a class="menu_button" href="javascript:void(0)" onclick="showHideMenu()">
+                <img class="icon_v" src="./images/icons/ellipsis-v-solid.svg" alt="menu">
+            </a>
+            <div class="links_mobile">
+                <a class="nav_mobile" href="#education" onclick="showHideMenu()">Education</a>
+                <a class="nav_mobile" href="#skills" onclick="showHideMenu()">Work skills</a>
+                <a class="nav_mobile" href="#expirience" onclick="showHideMenu()">Expirience</a>
+                <a class="nav_mobile" href="#projects" onclick="showHideMenu()">Projects</a>
+            </div>
+        </div>
+
         <div class="aside">
             <div class="person">
                 <img class="portrait" src="./images/Portrait.jpg" alt="self">
                 <h1><span>Natalia</span> Zaytseva</h1>
                 <h4>Frontend Developer</h4>
                 <h2>Profile</h2>
-                <p class="short_words">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore 
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                    consequat. </p>
+                <p class="short_words">I love design and development, 
+                    and on the frontend, I finally found the convergence 
+                    of the two. I study with pleasure, I also do my pet 
+                    projects and I also take pleasure and responsibility 
+                    for my work. I want to develop in working with framework 
+                    and grow into a cool full-stack developer. I have completed 
+                    several courses in the Coursework, now actively studying 
+                    at EPAM to improve his skills.</p>
             </div>
             <div class="contacts">
                 <h2>contact me</h2>
                 <h3>phone number</h3>
-                <p class="contact">12457</p>
+                <p class="contact">+380 95-490-52-78</p>
                 <h3>Email</h3>
-                <p class="contact"></p>
+                <p class="contact">natha.zayts@gmail.com</p>
                 <h3>Address</h3>
-                <p class="contact"></p>
+                <p class="contact">Ukraine, Dnipro, Pavlograd</p>
             </div>
             <div class="soft_skills">
                 <h2>Soft skills</h2>
@@ -143,7 +165,7 @@
                 </div>
                 <div class="details">
                     <h4>Full Stack Web Development with Angular</h4>
-                    <h4>Full-Stack Cloud Native Application Developer</h4>
+                    <h4>IBM Full-Stack Cloud Native Application Developer</h4>
                     <p class="date">January 2021 - Augest 2021</p>
                     <p class="description">Coursera.org online courses</p>
                 </div>

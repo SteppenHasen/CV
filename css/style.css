@@ -32,12 +32,16 @@ h4 {
     font-size: 1rem;
 }
 .portrait {
-    width: 80%;
+    width: 70%;
     border-radius: 50%;
 }
 .container {
     display: flex;
 }
+.mobile_menu {
+    display: none;
+}
+#navlinks {display: none;}
 
 /* Aside section */
 .aside {
@@ -91,6 +95,11 @@ h4 {
 .icon {
     width: 25px;
     margin-right: 20px;
+}
+.icon_v {
+    height: 30px;
+    color: whitesmoke;
+    padding-left: 7px;
 }
 
 /* Main section */
@@ -236,6 +245,47 @@ progress {
 .card_blackwhite {
     background-image: url(../images/projects_view/blacknwhite.png);
 }
+.mobile_menu {
+    background-color: #a79086;
+    position: relative;
+    height: 8vh;
+    position:sticky;
+	top:0;
+    z-index: 2; 
+}
+.mobile_menu #navlinks {
+    display: none;
+}
+.menu_button {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+
+}
+.menu_button img {
+    margin: 0;
+}
+.navlinks {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 2; 
+    background-color: #1b1210e7;
+    overflow-x: hidden;
+}
+.links_mobile {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_mobile {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: whitesmoke;
+}
 
 /* Efects */
 .nav:hover {
@@ -248,10 +298,13 @@ progress {
     filter: none;
     transition: filter 2s;
 }
-
+.nav_mobile:hover {
+    font-size: 1.2rem;
+    transition: font-size 1s;
+}
 
 /* mobile */
-@media screen and (max-width:968px) {
+@media screen and (min-width:751px) and (max-width:968px) {
     .settings {
         width: 70%;
     }
@@ -283,5 +336,52 @@ progress {
     }
     .work_skill p {
         margin-bottom: 0.5rem;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .aside {
+        width: 100vw;
+    }
+    .portrait {
+        margin-top: 4vh;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .main_info {
+        width: 100vw;
+    }
+    .education, .work_skills, .expirience, .projects {
+        margin: 6vh 0 6vh 0;
+    }
+    .settings {
+        display: none;
+    }
+    .settings::after {
+        content: none;
+    }
+    .skills_container {
+        flex-flow: column wrap;
+    }
+    .work_skill {
+        width: 90%;
+    }
+    .projects_cards {
+        display: flex;
+    }
+    .card {
+        width: 90%;
+    }  
+    .card_image {
+        height: 50vw;
+    }
+    .mobile_menu {
+        display: flex;
+        flex-direction: row;
     }
 }

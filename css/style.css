@@ -138,7 +138,7 @@ progress {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin-bottom: 25vh;
+    margin-bottom: 15vh;
     align-self: center;
     position:relative;
 }
@@ -185,6 +185,7 @@ progress {
     align-items: center;
     justify-content: space-between;
 }
+.skill_name {width: 30%;}
 .projects_cards {
     display: flex;
     flex-wrap: wrap;
@@ -305,6 +306,15 @@ progress {
 
 /* mobile */
 @media screen and (min-width:751px) and (max-width:968px) {
+    .aside {
+        width: 28vw;
+    }
+    .main_info {
+        width: 72vw;
+    }
+    .contacts {
+        margin: 0 -3vw;
+    }
     .settings {
         width: 70%;
     }
@@ -383,5 +393,9 @@ progress {
     .mobile_menu {
         display: flex;
         flex-direction: row;
+    }
+    .details {
+    padding-right: 5vw;
+    padding-left: 5vw;
     }
 }

@@ -206,7 +206,7 @@ progress {
     padding-top: 1rem;
 }
 .card_image {
-    background-position: center center;
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 0.25rem;

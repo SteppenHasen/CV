@@ -246,6 +246,12 @@ progress {
 .card_blackwhite {
     background-image: url(../images/projects_view/blacknwhite.png);
 }
+.card_planet {
+    background-image: url(../images/projects_view/planet-pj.png);
+}
+.card_map {
+    background-image: url(../images/projects_view/map-pj.png);
+}
 .mobile_menu {
     background-color: #a79086;
     position: relative;

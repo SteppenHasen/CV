@@ -252,6 +252,10 @@ progress {
 .card_map {
     background-image: url(../images/projects_view/map-pj.png);
 }
+.card_travel {
+    background-image: url(../images/projects_view/travel-log.png);
+}
+
 .mobile_menu {
     background-color: #a79086;
     position: relative;
